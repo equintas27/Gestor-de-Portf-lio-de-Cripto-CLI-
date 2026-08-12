@@ -1,0 +1,11 @@
+{
+  "bitcoin": {
+    "quantidade": 0.5
+  },
+  "ethereum": {
+    "quantidade": 2.0
+  },
+  "cardano": {
+    "quantidade": 1500.0
+  }
+}
