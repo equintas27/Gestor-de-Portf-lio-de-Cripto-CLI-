@@ -1,15 +1,12 @@
-import json
-
-def read_json(path):
-    try:
-        with open(path, 'r', encoding='utf-8') as f:
-            content = json.load(f)
-            return content
-    except FileNotFoundError:
-        return "Arquivo não encontrado"
-    except json.JSONDecodeError:
-        return "Json Inválido"
+from read_json import read_json
+from get_price import get_price
+from show_res import show_port
 
 if __name__ == '__main__':
-    cont = read_json('carteira.json')
-    print (cont)
+    cont = read_json('carteira_01.json')
+    if cont is not None:
+        coin = get_price(cont)
+        if coin is not None:
+            show_port(cont, coin)
+    else:
+        print ("Não foi possível carregar a carteira")
