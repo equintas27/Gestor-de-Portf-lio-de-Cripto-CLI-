@@ -1,4 +1,4 @@
-# 📈 Gestor de Portfólio de Cripto (CLI)
+# Gestor de Portfólio de Cripto (CLI)
 
 Um projeto em Python modular e assente na linha de comandos (CLI) que lê um ficheiro de carteira local em JSON, consulta os preços atualizados em tempo real através da API REST da CoinGecko e exibe o resumo financeiro totalmente formatado no terminal.
 
@@ -14,7 +14,7 @@ Um projeto em Python modular e assente na linha de comandos (CLI) que lê um fic
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **Linguagem:** [Python 3.10+](https://www.python.org/)
 - **Biblioteca HTTP:** [Requests](https://requests.readthedocs.io/)
@@ -22,12 +22,12 @@ Um projeto em Python modular e assente na linha de comandos (CLI) que lê um fic
 
 ---
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```text
 ├── main.py              # Ponto de entrada da aplicação
 ├── read_json.py         # Módulo para leitura e validação do ficheiro JSON
-├── get_price.py          # Módulo para integração com a API da CoinGecko
-├── exibir_portfolio.py   # Módulo responsável pela formatação da saída no terminal
+├── get_price.py         # Módulo para integração com a API da CoinGecko
+├── show_port.py         # Módulo responsável pela formatação da saída no terminal
 ├── carteira.json        # Ficheiro de dados com as criptomoedas e quantidades
 └── README.md            # Documentação do projeto
