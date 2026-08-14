@@ -28,6 +28,6 @@ Um projeto em Python modular e assente na linha de comandos (CLI) que lê um fic
 ├── main.py              # Ponto de entrada da aplicação
 ├── read_json.py         # Módulo para leitura e validação do ficheiro JSON
 ├── get_price.py         # Módulo para integração com a API da CoinGecko
-├── show_port.py         # Módulo responsável pela formatação da saída no terminal
+├── show_res.py         # Módulo responsável pela formatação da saída no terminal
 ├── carteira.json        # Ficheiro de dados com as criptomoedas e quantidades
 └── README.md            # Documentação do projeto
